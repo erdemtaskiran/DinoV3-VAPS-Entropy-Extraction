@@ -24,7 +24,7 @@ python extract.py --images path/to/VAPS --weights path/to/dinov3-vitb16-pretrain
 python analysis.py --vaps path/to/VAPS_Data_per_Artwork.csv
 ```
 
-Running on CPU (default) reproduces the files in `results/` exactly.
+Running on CPU (default) reproduces the files in `results/` exactly.Now in the current form all the results are in the main GitHub page instead of putting all of them into the results folder. But once you run the script you ll get the results folder and find the same csv files. 
 ## Data
 
 VAPS images and ratings are **not included**. They are available from the VAPS authors under their licence (Fekete et al., 2022, https://doi.org/10.1037/aca0000460; https://osf.io/a7xcr/). DINOv3 weights are available from Hugging Face (licence-gated). Three VAPS paintings (10317, 10324, 10328) are not included due to the mentioned reasons in our MS. 
