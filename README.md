@@ -24,11 +24,10 @@ python extract.py --images path/to/VAPS --weights path/to/dinov3-vitb16-pretrain
 python analysis.py --vaps path/to/VAPS_Data_per_Artwork.csv
 ```
 
-Running on CPU (default) reproduces the files in `results/` exactly. Seed: 20250902.
-
+Running on CPU (default) reproduces the files in `results/` exactly.
 ## Data
 
-VAPS images and ratings are **not included**. They are available from the VAPS authors under their licence (Fekete et al., 2022, https://doi.org/10.1037/aca0000460; https://osf.io/a7xcr/). DINOv3 weights are available from Hugging Face (licence-gated). Three VAPS paintings (10317, 10324, 10328) had no image file and are not included.
+VAPS images and ratings are **not included**. They are available from the VAPS authors under their licence (Fekete et al., 2022, https://doi.org/10.1037/aca0000460; https://osf.io/a7xcr/). DINOv3 weights are available from Hugging Face (licence-gated). Three VAPS paintings (10317, 10324, 10328) are not included due to the mentioned reasons in our MS. 
 
 ## Results (`results/`)
 
